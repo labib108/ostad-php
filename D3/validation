@@ -1,0 +1,23 @@
+<?php
+
+    $name = "";
+    if(empty($name))
+    {
+        echo "Name is empty \n";
+    }
+    else
+    {
+        echo "Name is {$name} \n";
+    }
+
+    $email = "abubuckkersiddikhgmail.com";
+    if(filter_var($email, FILTER_VALIDATE_EMAIL))
+    {
+        echo "Email is valid \n";
+    }
+    else
+    {
+        echo "Email is not invalid \n";
+    }
+
+?>
