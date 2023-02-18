@@ -1,3 +1,5 @@
+<?php
+
 /*
 0! = 1
 1! = 1
@@ -11,7 +13,6 @@
 9! = 362880
 using recursive function to get Factorial of a number
 */
-<?php
     
     function factorial($n)
     {
